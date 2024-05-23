@@ -1,12 +1,36 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/order/order",
+    "pages/profile/profile"
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "宣宝轻食店",
     "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#d66c5d",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/nav/index-off.png",
+      "selectedIconPath": "images/nav/index-on.png"
+    },
+    {
+      "pagePath": "pages/order/order",
+      "text": "订单",
+      "iconPath": "images/nav/index-off.png",
+      "selectedIconPath": "images/nav/index-on.png"
+    },
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "我的",
+      "iconPath": "images/nav/home-off.png",
+      "selectedIconPath": "images/nav/home-on.png"
+    }
+  ]
   },
   "style": "v2",
   "componentFramework": "glass-easel",
