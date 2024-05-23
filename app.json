@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/order/order",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/menu/menu"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -12,25 +13,32 @@
   "tabBar": {
     "color": "#999",
     "selectedColor": "#d66c5d",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "images/nav/index-off.png",
-      "selectedIconPath": "images/nav/index-on.png"
-    },
-    {
-      "pagePath": "pages/order/order",
-      "text": "订单",
-      "iconPath": "images/nav/index-off.png",
-      "selectedIconPath": "images/nav/index-on.png"
-    },
-    {
-      "pagePath": "pages/profile/profile",
-      "text": "我的",
-      "iconPath": "images/nav/home-off.png",
-      "selectedIconPath": "images/nav/home-on.png"
-    }
-  ]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/nav/index-off.png",
+        "selectedIconPath": "images/nav/index-on.png"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "点餐",
+        "iconPath": "images/nav/menu-off.png",
+        "selectedIconPath": "images/nav/menu-on.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "images/nav/order-off.png",
+        "selectedIconPath": "images/nav/order-on.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "images/nav/home-off.png",
+        "selectedIconPath": "images/nav/home-on.png"
+      }
+    ]
   },
   "style": "v2",
   "componentFramework": "glass-easel",
